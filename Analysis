@@ -1,0 +1,16 @@
+
+-> By analysing the models, I found that there was a race off between SSD and Faster RCNN. 
+-> By giving Video Stream as input, it is very shocking to know that the Faster RCNN have extemely high latency as compared to SSD Mobile Net.
+-> Hence, Faster RCNN have very high latency while it’s accuracy is very high and 
+-> SSD Mobile Net has significantly low latency , but it's accuracy is low as compared to Faster RCNN.
+-> Lastly, I had analysed all algorithms of Tensorflow Object Detection API in 
+   terms of latency and accuracy by giving real time video stream as an input.
+-> Below is a table that shows all the analysis of Tensorflow Object Detection Models.
+
+
+Sr. No	  Name	         Accuracy	   Latency(speed of model execution)
+1 	     CenterNet	      80%	         Low
+2 	    SSD MobileNet	    85%	        Extremely Low
+3 	    Faster RCNN	      97%	        High
+4 	    Mask RCNN	        99%	        Extremely High
+5 	   EfficientDet	      82%	        Low 
